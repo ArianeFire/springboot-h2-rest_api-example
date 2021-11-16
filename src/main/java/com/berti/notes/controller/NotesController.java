@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class NotesController {
 
+    @Autowired
     NotesRepository noteRepo;
 
     @GetMapping("/api/notes")

@@ -12,7 +12,7 @@ import java.util.List;
 @Repository
 public class NotesRepository {
 
-    @Qualifier
+    @Autowired
     JdbcTemplate template;
 
     /* Getting all */
